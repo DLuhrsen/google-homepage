@@ -1,0 +1,343 @@
+@import url('//use.fontawesome.com/releases/v4.6.3/css/font-awesome-css.min.css');
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('//use.fontawesome.com/releases/v4.6.3/fonts/fontawesome-webfont.eot');
+  src: url('//use.fontawesome.com/releases/v4.6.3/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+       url('//use.fontawesome.com/releases/v4.6.3/fonts/fontawesome-webfont.woff2') format('woff2'),
+       url('//use.fontawesome.com/releases/v4.6.3/fonts/fontawesome-webfont.woff') format('woff'),
+       url('//use.fontawesome.com/releases/v4.6.3/fonts/fontawesome-webfont.ttf') format('truetype'),
+       url('//use.fontawesome.com/releases/v4.6.3/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+    font-size: 13px;
+}
+
+
+html {
+        position: relative;
+    display: block;
+}
+
+img.google-logo {
+    height: 32px;
+    width: 93px;
+    padding-top: 3px;
+    vertical-align: middle;
+}
+
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    display: block;
+}
+
+.navbar {
+    position: relative;
+    border-bottom: 1px solid #666;
+    border-color: #e5e5e5;
+    padding: 10px 25px;
+    background: #f1f1f1;
+}
+
+
+.se_bar {
+    height: 35px;
+    width: 565px;
+    margin-left: 20px;
+    border: 1px solid #d9d9d9;
+    padding: 0 10px;
+    font-size: 16px;
+    background-image: url(https://raw.githubusercontent.com/jsmnglng/google-results-page/master/img/mic-icon.png);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: 99.2% 50%;
+}
+
+.se_btn {
+    position: absolute;
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px 10px;
+    font-weight: bold;
+    color: #fdfdfd;
+    background: #4285f4;
+}
+
+.fa-lg {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-search:before {
+    content: "\f002";
+}
+
+#navigation ul {
+        position: absolute;
+    top: 8px;
+    right: 30px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+li {
+    display: inline;
+    padding-left: 20px;
+}
+
+p, a, h3 {
+    color: #545454;
+}
+
+h3, p {
+    margin: 2px;
+}
+
+h3 a, .r_other p {
+    color: #1a0dab;
+}
+
+
+h3 {
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#navigation {
+    right: 13px;
+    position: absolute;
+    top: 6px;
+    height: 30px;
+    width: 236px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #444444;
+    padding-right: 12px;
+    padding-top: 15px;
+    font-size: 13px;
+    float: left;
+    height: 30px;
+}
+
+#navigation img {
+    vertical-align: middle;
+    filter: opacity(50%);
+}
+.si_btn {
+    border: 2px solid #4285f4;
+    border-radius: 3px;
+    padding: 4px 10px;
+    font-weight: bold;
+    color: #fdfdfd;
+    background: #4285f4;
+}
+
+.m_links {
+    position: relative;
+    border-bottom: 1px solid #666;
+    border-color: #e5e5e5;
+    padding: 10px 25px 10px 100px;
+}
+
+.m_links .active {
+    border-bottom: 3px solid #4285f4;
+    padding: 0 5px 20px 5px;
+    font-weight: bold;
+    color: #4285f4;
+}
+
+.m_links li a {
+    color: #777;
+}
+
+.fa-caret-down:before {
+    content: "\f0d7";
+}
+
+.l_settings {
+    position: absolute;
+    top: 16px;
+    right: 30px;
+    border: 1px solid #666;
+    border-color: #e5e5e5;
+    border-radius: 2px;
+    padding: 5px 25px;
+    background: #f5f5f5;
+    color: #444;
+}
+
+.fa-gear:before, .fa-cog:before {
+    content: "\f013";
+}
+
+#content {
+    width: 590px;
+    padding: 15px 165px;
+}
+
+.r_list, .ro_td {
+    padding-left: 5px;
+}
+
+.f_result, .r_list, .r_other {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.rf_title {
+    padding-bottom: 10px;
+}
+
+.rf_url {
+    color: #006621;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+.r_list, .ro_td {
+    padding-left: 5px;
+}
+
+.pagination {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.pagination img {
+    display: block;
+    margin: 0 auto;
+}
+
+.pagination ul {
+    width: 290px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.pagination li {
+    padding-left: 9px;
+    color: #4285f4;
+}
+
+.pagination li a {
+    color: #4285f4;
+}
+
+.pagination li .active {
+    color: #000;
+}
+
+.pagination .next {
+    padding-left: 50px;
+}
+
+#footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border: 1px solid #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    padding: 20px 170px 0 170px;
+    background: #f2f2f2;
+}
+
+.footer p {
+    color: #aaa;
+}
+
+.fa-circle:before {
+    content: "\f111";
+}
+
+.footer p a, .footer li a {
+    color: #777;
+}
+
+.footer ul, .footer li {
+    padding-left: 0;
+    padding-right: 20px;
+}
